@@ -1,0 +1,39 @@
+/*SOBRE MÍ*/
+
+.bodySobreMi {
+  background: white;
+  background-image: url(../img/oeba.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.h1SobreMi {
+  color: yellow;
+  text-shadow: 0.1em 0.1em 0.2em black;
+  font-weight: 900;
+}
+
+.hero {
+  display: flex;
+  height: 600px;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 890px;
+  height: 440px;
+  text-align: center;
+  gap: 20px;
+  color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.815);
+}
+
+.text {
+  text-align: justify;
+  line-height: 25px;
+}
